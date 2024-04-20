@@ -25,6 +25,19 @@ body {
     margin-top: 100px;
 }
 
+/* NAVBARRR */
+.navbar .container .nav .nav-item .nav-link {
+    color: var(--opacity);
+    text-decoration: none;
+    transition: all 02.s;
+    font-weight: normal;
+}
+
+.navbar .container .nav .nav-item .nav-link:hover {
+    color: var(--button);
+    font-weight: bold;
+}
+
 .icon-hero a {
     color: #aa9898;
 }
@@ -35,4 +48,13 @@ body {
 
 .icon-hero .circle-icon {
     border: 2px solid #aa9898;
+}
+
+.footer .row .col .nav-link {
+    color: var(--grey-alt);
+}
+
+.footer .row .col .nav-link:hover {
+    color: var(--button);
+    font-weight: bold;
 }
